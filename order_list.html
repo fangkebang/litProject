@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style/adminStyle.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="page-title">
+			<span class="modular f1">
+				<i class="order"></i>
+				<em>订单列表</em>
+			</span>
+		</div>
+		<div class="operate">
+			<form>
+				<img src="images/icon_search.gif">
+			<input type="text" class="textBox length-long" placeholder="请输入订单号或用户名。。。">
+			<select class="inline-select">
+				<option>已付款</option>
+				<option>未付款</option>
+			</select>
+			<input type="button" value="查询" class="tdBtn">
+			</form>
+		</div>
+		<table class="list-style Interlaced">
+			<tbody>
+				<tr>
+					<th>代拿按计划</th>
+					<th>代拿按计划</th>
+					<th>代拿按计划</th>
+					<th>代拿按计划</th>
+					<th>代拿按计划</th>
+					<th>代拿按计划</th>
+				</tr>
+				<tr class="trbgcolor">
+					<td >
+						<input type="checkbox" name="">
+						<a href="order_detail.html">12312312</a>
+					</td>
+					<td class="center">
+						<span class="block">GoodsBetter</span>
+						<span class="block">2018-11-07 19:00</span>
+					</td>
+					<td width="450">
+						<span class="block">小王【15399888888】</span>
+						<address>杭州市江干区2号大姐1000号</address>
+					</td>
+					<td class="center">
+						<span>
+							<i >￥</i>
+							<b>520</b>
+						</span>
+					</td>
+					<td class="center">
+						<span>未支付</span>
+					</td>
+					<td class="center">
+						<a href="order_detail.html" class="inline-block" title="查看订单">
+							<img src="images/icon_view.gif">
+						</a>
+						<a class="inline-block" title="删除订单">
+							<img src="images/icon_trash.gif">
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div style="overflow: hidden;">
+			<div class="BatchOperation fl">
+				<input type="checkbox" id="del">
+				<label class="btnStyle middle">全选</label>
+				<input type="button" value="接单" class="btnStyle">
+				<input type="button" value="配货" class="btnStyle">
+				<input type="button" value="删除订单" class="btnStyle">
+			</div>
+			<div class="turnPage center fr">
+				<a >上一页</a>
+				<a >1</a>
+				<a >下一页</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
